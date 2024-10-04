@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageHeader xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SentrixMatrixID>205854140120</SentrixMatrixID>
+  <SampleLabel>R07C01</SampleLabel>
+  <SectionLabel>1</SectionLabel>
+  <ColorChannel>Green</ColorChannel>
+  <ImageWidth>0</ImageWidth>
+  <ImageHeight>0</ImageHeight>
+  <RotationAngle>90</RotationAngle>
+  <Resolution>1</Resolution>
+  <ChOffsetX>0</ChOffsetX>
+  <ChOffsetY>0</ChOffsetY>
+  <Compressed>false</Compressed>
+  <ImageDate>2022-02-04T15:36:28.1676622+01:00</ImageDate>
+  <SentrixScanVersion />
+  <RegistrationVersion>??</RegistrationVersion>
+  <ExtractionVersion>n/a</ExtractionVersion>
+  <ExtractionMethod>StandardWithBackground</ExtractionMethod>
+  <RegsitrationScores>
+    <registrationScore>0</registrationScore>
+    <focusScore>0</focusScore>
+    <saturatedPixels>0</saturatedPixels>
+    <A11>0</A11>
+    <A12>0</A12>
+    <A21>0</A21>
+    <A22>0</A22>
+    <A31>0</A31>
+    <A32>0</A32>
+    <irregularBeads>0</irregularBeads>
+  </RegsitrationScores>
+  <P95>6986.745</P95>
+  <P50>1157.44043</P50>
+  <P05>0</P05>
+  <PMT>0</PMT>
+  <PMTFactor>0</PMTFactor>
+  <Filter />
+  <zOffset>0</zOffset>
+  <ScannerID>N219</ScannerID>
+  <SlidePosition>0</SlidePosition>
+  <UserName>Illumina</UserName>
+</ImageHeader>
