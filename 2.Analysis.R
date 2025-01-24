@@ -51,7 +51,7 @@ for (probeName in Table_2$probeName){
   tmp <- ggplot(data = Final_analysis_input, aes_string(x = probeName, y = "AUC_norm")) + 
     geom_point() + geom_smooth(method = "lm") + labs(
       x = paste0("Beta value probe ",probeName),
-      y = expression({AUC['0-24h,norm']})
+      y = expression({AUC['0-24h,norm']* ' (24 h/L)'})
     ) + theme_minimal()
   
   plotList[[probeName]] <- tmp
@@ -90,6 +90,7 @@ ggsave(
 cor.test(x = Final_analysis_input$cg19046783, y = Final_analysis_input$AUC_norm, method = "pearson")
 
 # Covariate test results (Table S1): 
+summary(lm(AUC_norm ~ Prednison, data = Final_analysis_input))
 summary(lm(AUC_norm ~ HCT, data = Final_analysis_input))
 summary(lm(AUC_norm ~ log(ALAT), data = Final_analysis_input))
 summary(lm(AUC_norm ~ CRP_above_49, data = Final_analysis_input))
